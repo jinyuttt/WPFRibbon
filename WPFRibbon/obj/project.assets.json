@@ -1,0 +1,3276 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DevExpress.WindowsDesktop.Core/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.5.0",
+          "System.Data.OleDb": "4.6.0",
+          "System.Data.SqlClient": "4.6.0",
+          "System.Management": "4.5.0",
+          "System.ServiceModel.Http": "4.5.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Charts.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.CodeParser.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Data.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.DataAccess.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Diagram.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Dialogs.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Images.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Map.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.DataModel.EFCore.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.DataModel.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.ViewModel.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Office.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Pdf.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Pdf.v19.2.Drawing.dll": {},
+          "lib/netcoreapp3.0/DevExpress.PivotGrid.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Printing.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.RichEdit.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.RichEdit.v19.2.Export.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Sparkline.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.SpellChecker.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Spreadsheet.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.TreeMap.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpo.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.XtraCharts.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.XtraGauges.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Charts.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.CodeParser.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Data.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.DataAccess.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Diagram.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Dialogs.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Images.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Map.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.DataModel.EFCore.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.DataModel.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.ViewModel.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Office.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Pdf.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Pdf.v19.2.Drawing.dll": {},
+          "lib/netcoreapp3.0/DevExpress.PivotGrid.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Printing.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.RichEdit.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.RichEdit.v19.2.Export.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Sparkline.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.SpellChecker.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Spreadsheet.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.TreeMap.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpo.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.XtraCharts.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.XtraGauges.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Reporting.Core/19.2.3-ctp": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "System.Collections.Immutable": "1.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.XtraReports.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.XtraReports.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.Carousel": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Charts": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Diagram": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Dialogs": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.ExpressionEditor": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Gantt": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Gauges": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Layout": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Map": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PdfViewer": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PivotGrid": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PrismAdapters": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PropertyGrid": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.RichEdit": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Scheduler": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Scheduling": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.SpellChecker": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Spreadsheet": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.TreeMap": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.TypedStyles": "[19.2.3]"
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Carousel/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Carousel.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Carousel.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Carousel.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Charts/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Charts.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Charts.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Charts.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Core/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Core.v19.2.Extensions.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Core.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Core.v19.2.Extensions.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Core.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Core.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Diagram/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PropertyGrid": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Diagram.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Diagram.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Diagram.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Dialogs/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Dialogs.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Dialogs.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Dialogs.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.DocumentViewer.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.DocumentViewer.v19.2.Core.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.ExpressionEditor/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.RichEdit": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.ExpressionEditor.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.ExpressionEditor.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.ExpressionEditor.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Gantt/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Gantt.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Gantt.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Gantt.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Gauges/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Gauges.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Gauges.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Gauges.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Grid/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.ExpressionEditor": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]"
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Grid.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Grid.Core/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.Extensions.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.Extensions.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Grid.Core.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Layout/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.LayoutControl.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.LayoutControl.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Layout.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Map/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Map.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Map.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Map.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Navigation/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Accordion.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Controls.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Docking.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Layout.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.NavBar.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Ribbon.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Accordion.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Controls.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Docking.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Layout.v19.2.Core.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.NavBar.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.Ribbon.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Navigation.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.PdfViewer/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PdfViewer.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PdfViewer.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.PdfViewer.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.PivotGrid/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PivotGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PivotGrid.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.PivotGrid.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Printing/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Layout": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]",
+          "System.ServiceModel.Http": "4.5.3",
+          "System.ServiceModel.Primitives": "4.5.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Printing.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Printing.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Printing.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.PrismAdapters/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PrismAdapters.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PrismAdapters.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.PrismAdapters.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.PropertyGrid/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PropertyGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PropertyGrid.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.PropertyGrid.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Reporting/19.2.3-ctp": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Reporting.Core": "[19.2.3-ctp]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Diagram": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.ExpressionEditor": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Layout": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PivotGrid": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PropertyGrid": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.RichEdit": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.CodeView.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.DataAccess.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.ReportDesigner.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.CodeView.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.DataAccess.v19.2.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Xpf.ReportDesigner.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Reporting.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.RichEdit/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.RichEdit.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.RichEdit.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.RichEdit.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Scheduler/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Scheduler.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Scheduler.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Scheduler.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Scheduling/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Layout": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Scheduling.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Scheduling.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Scheduling.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.SpellChecker/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.SpellChecker.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.SpellChecker.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.SpellChecker.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Spreadsheet/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Charts": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Spreadsheet.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Spreadsheet.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.Spreadsheet.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.All/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.Themes.DXStyle": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.LightGray": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisDark": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisLight": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Black": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Blue": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Silver": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Black": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Blue": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Silver": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2013": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2013DarkGray": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2013LightGray": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Black": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016BlackSE": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Colorful": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016ColorfulSE": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016DarkGraySE": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016WhiteSE": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Black": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Colorful": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019DarkGray": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019HighContrast": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019White": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Seven": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.TouchlineDark": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2010": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Blue": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Dark": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Light": "[19.2.3]"
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.DXStyle/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.DXStyle.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.DXStyle.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.LightGray/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.LightGray.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.LightGray.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisDark/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisDark.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisDark.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisLight/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisLight.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisLight.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Black/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Black.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Black.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Blue/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Blue.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Blue.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Silver/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Silver.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Silver.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Black/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Black.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Black.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Blue/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Blue.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Blue.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Silver/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Silver.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Silver.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2013/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2013DarkGray/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013DarkGray.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013DarkGray.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2013LightGray/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013LightGray.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013LightGray.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Black/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Black.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Black.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016BlackSE/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016BlackSE.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016BlackSE.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Colorful/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Colorful.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Colorful.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016ColorfulSE/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016ColorfulSE.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016ColorfulSE.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016DarkGraySE/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016DarkGraySE.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016DarkGraySE.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016White.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016White.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016WhiteSE/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016WhiteSE.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016WhiteSE.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Black/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Black.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Black.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Colorful/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Colorful.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Colorful.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019DarkGray/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019DarkGray.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019DarkGray.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019HighContrast/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019HighContrast.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019HighContrast.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019White/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019White.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019White.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Seven/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Seven.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Seven.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.TouchlineDark/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.TouchlineDark.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.TouchlineDark.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2010/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2010.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2010.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Blue/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Blue.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Blue.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Dark/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Dark.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Dark.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Light/19.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Light.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Light.v19.2.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.TreeMap/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.TreeMap.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.TreeMap.v19.2.dll": {}
+        },
+        "build": {
+          "build/DevExpress.WindowsDesktop.Wpf.TreeMap.props": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.TypedStyles/19.2.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Reporting.Core": "[19.2.3-ctp]",
+          "DevExpress.WindowsDesktop.Wpf.Carousel": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Charts": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Diagram": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.ExpressionEditor": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Layout": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Map": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PdfViewer": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PivotGrid": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.PropertyGrid": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Reporting": "[19.2.3-ctp]",
+          "DevExpress.WindowsDesktop.Wpf.RichEdit": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Scheduling": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.SpellChecker": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.Spreadsheet": "[19.2.3]",
+          "DevExpress.WindowsDesktop.Wpf.TreeMap": "[19.2.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.TypedStyles.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.TypedStyles.v19.2.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.CodeDom/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ComponentModel.Annotations/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.6.0",
+          "System.Security.Permissions": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Data.OleDb/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.6.0",
+          "System.Configuration.ConfigurationManager": "4.6.0",
+          "System.Diagnostics.PerformanceCounter": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Data.OleDb.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.OleDb.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Data.OleDb.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "System.Text.Encoding.CodePages": "4.5.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.5.0"
+        },
+        "compile": {
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.Registry": "4.6.0",
+          "System.Configuration.ConfigurationManager": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.SystemEvents": "4.6.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Management/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.Win32.Registry": "4.5.0",
+          "System.CodeDom": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Management.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Management.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Management.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Private.ServiceModel/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.0",
+          "System.Reflection.DispatchProxy": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Private.ServiceModel.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Reflection.DispatchProxy/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.6.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Permissions/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.6.0",
+          "System.Windows.Extensions": "4.6.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.6.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.ServiceModel.Http/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Private.ServiceModel": "4.5.3",
+          "System.ServiceModel.Primitives": "4.5.3"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.ServiceModel.Http.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Http.dll": {}
+        }
+      },
+      "System.ServiceModel.Primitives/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Private.ServiceModel": "4.5.3"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.ServiceModel.Primitives.dll": {},
+          "ref/netstandard2.0/System.ServiceModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Primitives.dll": {},
+          "lib/netstandard2.0/System.ServiceModel.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Windows.Extensions/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.6.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevExpress.WindowsDesktop.Core/19.2.3": {
+      "sha512": "PyV7N+L6z5U4gXdgr3ZTBjb0xVNdUZpjzlNN5m5tvcmvXtX+RIX6QoC4+leqeN2SrHSacc2hVWYih4dWJeeYJw==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.core/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.core.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.core.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Charts.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.CodeParser.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Data.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.DataAccess.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.DataAccess.v19.2.xml",
+        "lib/netcoreapp3.0/DevExpress.Diagram.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Diagram.v19.2.Core.xml",
+        "lib/netcoreapp3.0/DevExpress.Dialogs.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Images.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Map.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Map.v19.2.Core.xml",
+        "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.DataModel.EFCore.dll",
+        "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.DataModel.dll",
+        "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.ViewModel.dll",
+        "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Office.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Pdf.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Pdf.v19.2.Drawing.dll",
+        "lib/netcoreapp3.0/DevExpress.PivotGrid.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Printing.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.RichEdit.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.RichEdit.v19.2.Export.dll",
+        "lib/netcoreapp3.0/DevExpress.Sparkline.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.SpellChecker.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Spreadsheet.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.TreeMap.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpo.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.XtraCharts.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.XtraCharts.v19.2.xml",
+        "lib/netcoreapp3.0/DevExpress.XtraGauges.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.XtraGauges.v19.2.Core.xml",
+        "lib/netcoreapp3.0/DevExpress.XtraScheduler.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.XtraScheduler.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Reporting.Core/19.2.3-ctp": {
+      "sha512": "F9sblvC/6nP4U4EK5Pk7FFCixddwpoS4rx5ci1X9hEKruiEPtQScWOncRdyiYTt70H9SOm16ZEqCBDL8Z5yWWA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.reporting.core/19.2.3-ctp",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.reporting.core.19.2.3-ctp.nupkg.sha512",
+        "devexpress.windowsdesktop.reporting.core.nuspec",
+        "lib/netcoreapp3.0/DevExpress.XtraReports.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.XtraReports.v19.2.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf/19.2.3": {
+      "sha512": "ZeKAMKydpPslgbajZrZkLZ6Nzx1T0gU+lzl7VDtfnlODQXTl3Gt/wOkvasquRoU6lqwsCuXb/ORiD4DF8oIu8g==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.props",
+        "devexpress.windowsdesktop.wpf.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Carousel/19.2.3": {
+      "sha512": "WUa9qHi5nzFSE3sO0UoFvMJ3YH6af9HfRK1bZ/rz0CDicxjKBrpwzwcHak66KpwjOxebV8iFWtSnZ1wAZwb20w==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.carousel/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Carousel.props",
+        "devexpress.windowsdesktop.wpf.carousel.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.carousel.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Carousel.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Carousel.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Charts/19.2.3": {
+      "sha512": "XQsu3HkRqdC3Ye6/cdelKDiotrTYI23B4EELsW9nEGqeO3ZzkJdIgHlRoyUTcy7VENrla5zIavu3cR7nq8RMgQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.charts/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Charts.props",
+        "devexpress.windowsdesktop.wpf.charts.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.charts.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Charts.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Charts.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Core/19.2.3": {
+      "sha512": "7wYJNuvKF9wNAaDh+nNn+7snZ1CtVFI+FVIuSo/zNu1I8Lj3u9xAB8s43YTZkVNBn7GU/Pl9gHuYA2gGGyp5lQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.core/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Core.props",
+        "devexpress.windowsdesktop.wpf.core.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.core.nuspec",
+        "lib/netcoreapp3.0/Design/DevExpress.Xpf.Core.v19.2.designtools.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Core.v19.2.Extensions.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Core.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Core.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Diagram/19.2.3": {
+      "sha512": "cF86UPj3d5REc0suPdf0FVztaa22YxA7PH8x1ImXPsGDFXps2f54rTR7x/j1mISRMlxITsumoNqvg8trH87VQQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.diagram/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Diagram.props",
+        "devexpress.windowsdesktop.wpf.diagram.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.diagram.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Diagram.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Diagram.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Dialogs/19.2.3": {
+      "sha512": "uVTmGBnD2odbpwmuTWw4q1pVQQI9YHKHS+SVOSH1xuYHr2SqPk68h9CWV3eNWLEPJQr2daz3F1ubpmHjq3bJGw==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.dialogs/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Dialogs.props",
+        "devexpress.windowsdesktop.wpf.dialogs.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.dialogs.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Dialogs.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Dialogs.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core/19.2.3": {
+      "sha512": "tbFdbnTObBuGQCdhit9Vd4j1Qst7fS8hmDcetUorgHdR8dSVpuid30vOJdqm7yS82fV+iHU2ctZ2XrIUnCcv4w==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.documentviewer.core/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core.props",
+        "devexpress.windowsdesktop.wpf.documentviewer.core.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.documentviewer.core.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.DocumentViewer.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.DocumentViewer.v19.2.Core.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.ExpressionEditor/19.2.3": {
+      "sha512": "73FFWCEHDLd5TtRAFC64VLUKcfXm2+E4vZm0dtorCJN24z42T+/49O0lMRb1UplJjZ/7/B56uwR4ng/mOX3Rag==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.expressioneditor/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.ExpressionEditor.props",
+        "devexpress.windowsdesktop.wpf.expressioneditor.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.expressioneditor.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.ExpressionEditor.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.ExpressionEditor.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Gantt/19.2.3": {
+      "sha512": "l2UmIGrEeBIA6un4jRKL890XVobFhou8+Fb+ucRUg3TIu2W8blJO3X8Q4qYyGRMakGs6X1PjPt/xUCWZ2oB+lQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.gantt/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Gantt.props",
+        "devexpress.windowsdesktop.wpf.gantt.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.gantt.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Gantt.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Gantt.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Gauges/19.2.3": {
+      "sha512": "OKuOpW5aejlPF8T0712wfOPgwIriqOterM3qDsmK6iRcBOSnyQ0XV6jdnCLI4xFSV9GeqGs0Pk/ZvRtThWb+NA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.gauges/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Gauges.props",
+        "devexpress.windowsdesktop.wpf.gauges.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.gauges.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Gauges.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Gauges.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Grid/19.2.3": {
+      "sha512": "lnznCW9/HpKaBDPIFXZSd+ozzwms8V0GRIunqgUubVCYs6eWXCWpDtMyiCUxn05aVHwQcgO50+gBwtXc739SnA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.grid/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Grid.props",
+        "devexpress.windowsdesktop.wpf.grid.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.grid.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Grid.Core/19.2.3": {
+      "sha512": "Mk854OAHYjF9L1R2tLZRZJPXVF1lNt/UHJ0alhUk/dVnsiV6sy9SMQYm1y5/e55Sv004+mWDm0cEkAPKk+bj0Q==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.grid.core/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Grid.Core.props",
+        "devexpress.windowsdesktop.wpf.grid.core.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.grid.core.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.Core.xml",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.Extensions.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Layout/19.2.3": {
+      "sha512": "alD+18ga1fjo84bDjDS2V67Kvfuk2XlGjUM4eZdjbDAt6qvPMAMwU5g6+j7qbSkWNfa3en/gvS9iJjV1PzCu1w==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.layout/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Layout.props",
+        "devexpress.windowsdesktop.wpf.layout.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.layout.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.LayoutControl.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.LayoutControl.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Map/19.2.3": {
+      "sha512": "DyDPeN9/x67gUBuW0wZk8PqisHfzMbHiBjIi6dzQqu5eG6oYOMP3b/s6JyZnuVprAFwvKzMKPSbNQh2GT3IGCA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.map/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Map.props",
+        "devexpress.windowsdesktop.wpf.map.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.map.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Map.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Map.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Navigation/19.2.3": {
+      "sha512": "BqoEHry+NfleCOMP1eyE5SPQYu6VWJSZbDLsHQbUYE5kPyFZ1nD5vueSB82lOzPurU9kmmPao05pNH/GzL4D5Q==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.navigation/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Navigation.props",
+        "devexpress.windowsdesktop.wpf.navigation.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.navigation.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Accordion.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Accordion.v19.2.xml",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Controls.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Controls.v19.2.xml",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Docking.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Docking.v19.2.xml",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Layout.v19.2.Core.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Layout.v19.2.Core.xml",
+        "lib/netcoreapp3.0/DevExpress.Xpf.NavBar.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.NavBar.v19.2.xml",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Ribbon.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Ribbon.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.PdfViewer/19.2.3": {
+      "sha512": "8MUWsox/T+VKd0JhFrZ+ZimZEFpSlJThBwDDbCLAFkl9X6wS8JTAUJOVYBWf4e87M090fwzRfeZftem3Szx8bw==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.pdfviewer/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.PdfViewer.props",
+        "devexpress.windowsdesktop.wpf.pdfviewer.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.pdfviewer.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PdfViewer.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PdfViewer.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.PivotGrid/19.2.3": {
+      "sha512": "sYcTJH+EpNmqujQ8j2tZRFNJSEZY9jq9TpW/P2E15Z30d+wtq4hHGF7pTZ0VHoC6JO2ueShQsk2nPYVFO8NSJg==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.pivotgrid/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.PivotGrid.props",
+        "devexpress.windowsdesktop.wpf.pivotgrid.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.pivotgrid.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PivotGrid.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PivotGrid.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Printing/19.2.3": {
+      "sha512": "uXiJU/ixUs+rRhCzI2odYmrjny/pUDw/jMhgtYjKIA+9SZU7C+e0CGqkfTTmmWCIuPhNxll0hs1yboRfzMuM6A==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.printing/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Printing.props",
+        "devexpress.windowsdesktop.wpf.printing.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.printing.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Printing.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Printing.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.PrismAdapters/19.2.3": {
+      "sha512": "sOgPgPoUcN7+02rcZPiRUZrO4fBjRPIGEimDEv/ujmIMQW5/NtL2Fv3XA4Ns5Ox5Duna3x0bzlCye0SLPGuFdw==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.prismadapters/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.PrismAdapters.props",
+        "devexpress.windowsdesktop.wpf.prismadapters.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.prismadapters.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PrismAdapters.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PrismAdapters.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.PropertyGrid/19.2.3": {
+      "sha512": "2cK3mYLaQA98ai8/na+2eXB2V2WJ/H4tJVbt+uiqo5y62M3crbux75MqhkfFGhqOJCxN7LEZxx9ov7oM4sASXA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.propertygrid/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.PropertyGrid.props",
+        "devexpress.windowsdesktop.wpf.propertygrid.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.propertygrid.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PropertyGrid.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PropertyGrid.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Reporting/19.2.3-ctp": {
+      "sha512": "jfHvlrprMXc+Kvmn2znqmoA3JpDdUH4GuWmmQkAKWk1X912Zjv+Bmw26KS5u2lJDVr/JVDB2ikuHzMbr1Tf/Ww==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.reporting/19.2.3-ctp",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Reporting.props",
+        "devexpress.windowsdesktop.wpf.reporting.19.2.3-ctp.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.reporting.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.CodeView.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.DataAccess.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.ReportDesigner.v19.2.dll",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.RichEdit/19.2.3": {
+      "sha512": "SUoMmq49qIf1i/vH5evkJHM1m+2zANclLxppIM0xgdX4iyMKHr6xqW1L5VFMSeJLSPLUDbDlmciwcgTBE2/qFA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.richedit/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.RichEdit.props",
+        "devexpress.windowsdesktop.wpf.richedit.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.richedit.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.RichEdit.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.RichEdit.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Scheduler/19.2.3": {
+      "sha512": "/eaTyt0haukjgVrXCAy5UofjZP963M6y3ivYtlBPpjvOAkujbCFdS4AP56wuoLTJlP0V4a2WRAItJLEkoR/eLw==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.scheduler/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Scheduler.props",
+        "devexpress.windowsdesktop.wpf.scheduler.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.scheduler.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Scheduler.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Scheduler.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Scheduling/19.2.3": {
+      "sha512": "uA37zacMxRESOnt7po2w/vRPbyZIxX7sNQmFBhYsMSHxECYBjLs0Bb0S1rVUgy8d83JILoKUcUYsHNonL7Z3EA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.scheduling/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Scheduling.props",
+        "devexpress.windowsdesktop.wpf.scheduling.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.scheduling.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Scheduling.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Scheduling.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.SpellChecker/19.2.3": {
+      "sha512": "x3GZf+nQM/Xg1a/sL4Fa2jfssuZO5JKqe1dJ0PSofNvRttbqvMngZomLTBYxLHVfE7Oxv5Q20uLyqTQTfptqYA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.spellchecker/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.SpellChecker.props",
+        "devexpress.windowsdesktop.wpf.spellchecker.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.spellchecker.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.SpellChecker.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.SpellChecker.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Spreadsheet/19.2.3": {
+      "sha512": "MdLoBPm3vm5hIbfk1GDgKHD7jYHGPrfyZQ4YY9vy1BTvR1jbFCRMEtq7NgSrZu4lHMyHQgXQ/lr3UdWo2LzC9A==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.spreadsheet/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.Spreadsheet.props",
+        "devexpress.windowsdesktop.wpf.spreadsheet.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.spreadsheet.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Spreadsheet.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Spreadsheet.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.All/19.2.3": {
+      "sha512": "S70OVN1JhwdC+Cf4fSSkAXFPrm5HjwT27nT4MMdKOd5dg5epdjQvyQgRp6XJW08lPGzZ+Cosc6uHSUzRyzK5YA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.all/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.all.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.all.nuspec"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.DXStyle/19.2.3": {
+      "sha512": "jua5WD8nPNnsem3dEMjFS5g2CEclaXQXa1Kp0H+32PaGgirK2pz6NS004eiOd4aBk5oxzRjQlOWttuP9M2uNKQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.dxstyle/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.dxstyle.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.dxstyle.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.DXStyle.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.LightGray/19.2.3": {
+      "sha512": "tsh12YrE+Jf0n+YtescrPfdQaOcTVr7d+SJ/TAE6XiaGu6fcsab25JTEn4zk34OhS7XgT0AirgiHVFqrZEPrDA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.lightgray/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.lightgray.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.lightgray.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.LightGray.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisDark/19.2.3": {
+      "sha512": "j7bFrllfsMXYbuee3uGiQyS60cwlJD4P1JCqF2HkLQYvJ3HoNgtVkgqjeobEb+bO9WznSUQuVnF5+GbPkBlU5A==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.metropolisdark/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.metropolisdark.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.metropolisdark.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisDark.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisLight/19.2.3": {
+      "sha512": "GE9xImkIheMLMJMmf8oL5c6q1QwuBL3P+5OD5SuGMUSOZw44cBgFSwIj5I/maVGrjyZy/qjJJvApYIjZFCaHuQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.metropolislight/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.metropolislight.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.metropolislight.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisLight.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Black/19.2.3": {
+      "sha512": "WdqILjqmliOJg+rphapNGoRK2vZhwrN+eNvywryt9jH96w95ulQn2MSx+LKzn+94TaSDNFF6LV6k8FOXeyp4Uw==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2007black/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2007black.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2007black.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Black.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Blue/19.2.3": {
+      "sha512": "j31ieJTjYkuqZjA5J/3EmZITpF93hK3LMNb4U+MvkrHHaP57I6qgYH8WK6sl7IszYAOPiCI66/Xz4UZgwrpDLQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2007blue/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2007blue.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2007blue.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Blue.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Silver/19.2.3": {
+      "sha512": "4139qGXpHgFbWs5YDda9pYKZcssaNbSOqnlUs+uMFLeEmMRdFweou8xy6A6byHCp1K//sIn5fMcpneY4TVSKAg==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2007silver/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2007silver.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2007silver.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Silver.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Black/19.2.3": {
+      "sha512": "o4jGiQc4Kgm5iCp4ruD1ICgd384WOPZRFAorXAmksswbvK3yewz79nORsymvXiD59qtkbU0LS8Hl8HuXn+KKuQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2010black/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2010black.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2010black.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Black.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Blue/19.2.3": {
+      "sha512": "0EZWqkiTynzP4pII7Lcaw9GaEzUNRHMxqTDlakpLjry+B8UjtWgRaCzmMDgLlVZm6j7aW7vtmE0h7u7Pw8cB3Q==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2010blue/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2010blue.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2010blue.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Blue.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Silver/19.2.3": {
+      "sha512": "mIMv0JjOvKKrxal5wzz9A6Qi4RayjlRkVgUMMTjdw4DgLUBLGuSkNc+35sv9a+Ai2qO8kN/hxyxFw8f8ZLCHog==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2010silver/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2010silver.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2010silver.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Silver.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2013/19.2.3": {
+      "sha512": "2ThNWyOOVnzHI7Zb8T+1Vf+b+7EUiKvV5v83cyGI+26y5gCbUkdwAZOpxqvvlScGSihx4g4DcRhlYit3IX+XSA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2013/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2013.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2013.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2013DarkGray/19.2.3": {
+      "sha512": "aDFpPglWJy4zXw+wBXYBfLO92Dg5sTyCdGk3rO00CdrVeHddCXeOhix3a+68cpWpJlHJfG1sMe61BwyZmaZUiQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2013darkgray/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2013darkgray.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2013darkgray.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013DarkGray.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2013LightGray/19.2.3": {
+      "sha512": "sOBIHYldA9Y6Og9TQWQu2TJE5hhX4n7kFTznbRfoRu6qpzOxoKhpuIb5I4myEHeOI8C22PplSCl5etXCfr2+7g==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2013lightgray/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2013lightgray.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2013lightgray.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013LightGray.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Black/19.2.3": {
+      "sha512": "ZJ5vHaab1o7BecZaSTVV2KgqCQ8mx8Zlh7GJRYqDWBwIoKujG9ZQGojBW1dcu6w35BllyIs1EFDprCIt98nOug==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016black/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2016black.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2016black.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Black.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016BlackSE/19.2.3": {
+      "sha512": "FYod5WhEpkzZm6dW8wG64bhfvrZU5Kmum/Cp8jIqS8upxX0pYARGHh+VUYMdrtRQVKvq2BSvZxPrRBNZyGDr/g==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016blackse/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2016blackse.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2016blackse.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016BlackSE.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Colorful/19.2.3": {
+      "sha512": "e5xE+liFB2rvRIEwpZpgOZ+akxbFf4Ls3HQtlREHBd5eJ2DbaIQgO3h7tAhK93nckTCDKoH8oV81iZpPPh2wSA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016colorful/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2016colorful.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2016colorful.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Colorful.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016ColorfulSE/19.2.3": {
+      "sha512": "8/GABlg3/zHG7ipT+2igGdhLwxEDQFBFWadub65ocPEx7EndOTMvOJ9+AUu7EAvvrYZOJJURszo0QfwPHMfzpg==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016colorfulse/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2016colorfulse.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2016colorfulse.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016ColorfulSE.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016DarkGraySE/19.2.3": {
+      "sha512": "yUZuwnemCO+EKAN+x5hZcXufsZ5G/+VPXIJ1hkdfkxroP3TBXu09LS7pmsTRi1wKeIsgg4Iscjb4t+Cfpiiz3g==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016darkgrayse/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2016darkgrayse.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2016darkgrayse.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016DarkGraySE.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White/19.2.3": {
+      "sha512": "mUsxNRi2X57kKtINl7scvYL6EXULd7S6tlcYLcFVtfp9g6YB5mTl33BqVrK7pK7UjA3AR8Oa+jHCeskf0xpbVw==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016white/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2016white.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2016white.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016White.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016WhiteSE/19.2.3": {
+      "sha512": "lP4HRGVV400VSapG4olnY3+lNSKohUb2JEfPmMK2gbo6qrt+UJ5pcaQrgtVWJgbapZIgfU/JFMC04CDGlNKaoQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016whitese/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2016whitese.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2016whitese.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016WhiteSE.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Black/19.2.3": {
+      "sha512": "jN2S5TnJRDXJOZNGdxvgl7G/tDcRh3gRD568h/AtU1zZN683LHpfS8kiGv8lOTS6/FWwXda0f0p3NlNtPNrhYg==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019black/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2019black.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2019black.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Black.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Colorful/19.2.3": {
+      "sha512": "l8Ay9K2JlDtF/HEnOHp+BLQum3pi1mfl1ugbXt3gigayq7ID/CYEamjYfjbXrbiwaofXnivVg8Hi1S3zAepfbw==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019colorful/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2019colorful.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2019colorful.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Colorful.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019DarkGray/19.2.3": {
+      "sha512": "Q3o7cEx9HeLTS9K8iu8cybdWyATOdmb4Wep6GHtg97+8Jalh/Oe/GwWRZ+uSEeQv0RXDwFljIKVSrkrE8b+RKQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019darkgray/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2019darkgray.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2019darkgray.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019DarkGray.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019HighContrast/19.2.3": {
+      "sha512": "2pOz+KKSaFioO7ExAbzy66lEpBV1hbXPFEtMpIF+URAegDqYcOM1ghgUw2pWLuCNhSsvVSI7sxDc905LYebAPQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019highcontrast/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2019highcontrast.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2019highcontrast.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019HighContrast.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019White/19.2.3": {
+      "sha512": "tBdpgwV8Fy1JL0ZeosBrIqe0EwlKzd6kZE7DMHnhKQAa05tauHpKlta1AP2hnXbxj94c2TIIWIDJUYXw/rKMLA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019white/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.office2019white.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.office2019white.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019White.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Seven/19.2.3": {
+      "sha512": "+KUXJE9S6Nf2+zojppyicn3hOOgJUjhM1WEn0+t0k6RFCkry12vk8uOgttjrNR16Cmt9OpXVQnX5xz7V9Cc66g==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.seven/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.seven.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.seven.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Seven.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.TouchlineDark/19.2.3": {
+      "sha512": "7pPy39xi5psSwiw7373XUjiKl4Gg1EKvtZ20GrVQ+cFT1lrM2s/2HWmfU6xh0vuiWc8VfSaaDGGwEj0DBQruNA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.touchlinedark/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.touchlinedark.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.touchlinedark.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.TouchlineDark.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2010/19.2.3": {
+      "sha512": "WvbpxD2kCnaNo3Hb55BNX+i+1Mis90mkIdIeDLSwVl+UpcosqKuf/49tgNPIz2uuPHXefqsf68q2NBz9jv/fRg==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2010/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.vs2010.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.vs2010.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2010.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Blue/19.2.3": {
+      "sha512": "sdSZFBYe/S7z/5XXPbGcRzBWi6cqChM8XQfExcRrAbv3oITeI7zICLm/4splqIeveX6BOruUyLjxPU8FSjyCBA==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2017blue/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.vs2017blue.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.vs2017blue.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Blue.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Dark/19.2.3": {
+      "sha512": "3cBMKV2XQgTPERnvi37SuwXEF1fQH0i758FSTe+Gs39DoeLBajBShFN2d8Gzg805JvZo3tTDiQLcpCQWLuc66w==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2017dark/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.vs2017dark.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.vs2017dark.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Dark.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Light/19.2.3": {
+      "sha512": "XPnuBWKFhlKcGpwDXzzJ2rtjw1SdIOrMnOk74pcsGzlVsBfqKBWV1jUiDa0Wdwqa5hotgKLJ3rCsD/soHrvrgg==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2017light/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.themes.vs2017light.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.themes.vs2017light.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Light.v19.2.dll"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.TreeMap/19.2.3": {
+      "sha512": "a+V6pZ/7l6axfsJ4AOE00wWPuWgQnTnDQ1+rt7vCBri3GRIQ2qbKRd5BSZbcQTPqST5wQmdT7cznkn101DQBsw==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.treemap/19.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DevExpress.WindowsDesktop.Wpf.TreeMap.props",
+        "devexpress.windowsdesktop.wpf.treemap.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.treemap.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.TreeMap.v19.2.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.TreeMap.v19.2.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.WindowsDesktop.Wpf.TypedStyles/19.2.3": {
+      "sha512": "rVyqkVp31UGvzl6ZR1Yzqp8l5aLXlVJIKWDqM2W3TAvyS5v4c2ms5kD89cq66ma44NMt5LMp7bq/+gCviUAjgQ==",
+      "type": "package",
+      "path": "devexpress.windowsdesktop.wpf.typedstyles/19.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.windowsdesktop.wpf.typedstyles.19.2.3.nupkg.sha512",
+        "devexpress.windowsdesktop.wpf.typedstyles.nuspec",
+        "lib/netcoreapp3.0/DevExpress.Xpf.TypedStyles.v19.2.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.0.0": {
+      "sha512": "TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.6.0": {
+      "sha512": "Xuqo5Lf5h1eUAbT8sJwNSEgusyEcQQQcza1R8dxJ6q/1vLSU1SG/WxtgiCPAth14dz/IjBXCxWT/+6E9glX33w==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.xml",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "microsoft.win32.registry.4.6.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/net472/Microsoft.Win32.Registry.dll",
+        "ref/net472/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/4.6.0": {
+      "sha512": "Edg+pFW5C8WJb680Za2kTV8TqUi6Ahl/WldRVoOVJ23UQLpDHFspa+umgFjkWZw24ETsU99Cg+ErZz683M4chg==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net461/Microsoft.Win32.SystemEvents.xml",
+        "ref/net472/Microsoft.Win32.SystemEvents.dll",
+        "ref/net472/Microsoft.Win32.SystemEvents.xml",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+      "sha512": "AJfX7owAAkMjWQYhoml5IBfXh8UyYPjktn8pK0BFGAdKgBS7HqMz1fw5vdzfZUWfhtTPDGCjgNttt46ZyEmSjg==",
+      "type": "package",
+      "path": "runtime.native.system.data.sqlclient.sni/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.native.system.data.sqlclient.sni.4.5.0.nupkg.sha512",
+        "runtime.native.system.data.sqlclient.sni.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "type": "package",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-arm64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "type": "package",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "type": "package",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x86/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.CodeDom/4.5.0": {
+      "sha512": "gqpR1EeXOuzNQWL7rOzmtdIz3CaXVjSQCiaGOs2ivjPwynKSJYm39X81fdlp7WuojZs/Z5t1k5ni7HtKQurhjw==",
+      "type": "package",
+      "path": "system.codedom/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.xml",
+        "ref/netstandard2.0/System.CodeDom.dll",
+        "ref/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.4.5.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "sha512": "EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "type": "package",
+      "path": "system.collections.immutable/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.5.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "sha512": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
+      "type": "package",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net461/System.ComponentModel.Annotations.dll",
+        "lib/netcore50/System.ComponentModel.Annotations.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "lib/portable-net45+win8/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net461/System.ComponentModel.Annotations.dll",
+        "ref/net461/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/System.ComponentModel.Annotations.dll",
+        "ref/netcore50/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/de/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/es/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/fr/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/it/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ja/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ko/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/portable-net45+win8/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.annotations.4.5.0.nupkg.sha512",
+        "system.componentmodel.annotations.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/4.6.0": {
+      "sha512": "gkNklXxdmB3r4SQTUzRhESZAb3MotgDz24XYi2R/bIjJ10SF0KHJ/qTEwi9CLyIAOTjmCo8Vx8+rKldLaiW7Ig==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/net461/System.Configuration.ConfigurationManager.xml",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.4.6.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Data.OleDb/4.6.0": {
+      "sha512": "deacmfBwOpdhYz4uYAcTX/ji34Hm35ZkB1Qt//5wmpfsT8UpDmPEI/+/3s9fPCTItA4QdfHHrpbsouxv16andw==",
+      "type": "package",
+      "path": "system.data.oledb/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Data.OleDb.dll",
+        "lib/net461/System.Data.OleDb.xml",
+        "lib/netstandard2.0/System.Data.OleDb.dll",
+        "lib/netstandard2.0/System.Data.OleDb.xml",
+        "ref/net461/System.Data.OleDb.dll",
+        "ref/net461/System.Data.OleDb.xml",
+        "ref/netstandard2.0/System.Data.OleDb.dll",
+        "ref/netstandard2.0/System.Data.OleDb.xml",
+        "runtimes/win/lib/net461/System.Data.OleDb.dll",
+        "runtimes/win/lib/net461/System.Data.OleDb.xml",
+        "runtimes/win/lib/netstandard2.0/System.Data.OleDb.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.OleDb.xml",
+        "system.data.oledb.4.6.0.nupkg.sha512",
+        "system.data.oledb.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Data.SqlClient/4.6.0": {
+      "sha512": "gwItUWW1BMCckicFO85c8frFaMK8SGqYn5IeA3GSX4Lmid+CjXETfoHz7Uv+Vx6L0No7iRc/7cBL8gd6o9k9/g==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netcoreapp2.1/System.Data.SqlClient.dll",
+        "ref/netcoreapp2.1/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
+        "system.data.sqlclient.4.6.0.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Diagnostics.PerformanceCounter/4.6.0": {
+      "sha512": "hzNEIJ58VQtTlL12T3EZ7ChDBjDnVra1d4CICe5jM64AK1Lh7jqJvFTXTqp7l3ez2yIzfp/OJWKrQ4Glab4nLA==",
+      "type": "package",
+      "path": "system.diagnostics.performancecounter/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Diagnostics.PerformanceCounter.dll",
+        "lib/net461/System.Diagnostics.PerformanceCounter.xml",
+        "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll",
+        "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Diagnostics.PerformanceCounter.dll",
+        "ref/net461/System.Diagnostics.PerformanceCounter.xml",
+        "ref/net472/System.Diagnostics.PerformanceCounter.dll",
+        "ref/net472/System.Diagnostics.PerformanceCounter.xml",
+        "ref/netstandard2.0/System.Diagnostics.PerformanceCounter.dll",
+        "ref/netstandard2.0/System.Diagnostics.PerformanceCounter.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.xml",
+        "system.diagnostics.performancecounter.4.6.0.nupkg.sha512",
+        "system.diagnostics.performancecounter.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Drawing.Common/4.6.0": {
+      "sha512": "2A3spjjoPZnvpVh/sDTzd+0H8ZqTdr+hH/6obB8MMfG81EJ85PmxCKDBxhBVQiA25PliKAZ1sKogDcq9mSnFEA==",
+      "type": "package",
+      "path": "system.drawing.common/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.4.6.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Management/4.5.0": {
+      "sha512": "Z6ac0qPGr3yJtwZEX1SRkhwWa0Kf5NJxx7smLboYsGrApQFECNFdqhGy252T4lrZ5Nwzhd9VQiaifndR3bfHdg==",
+      "type": "package",
+      "path": "system.management/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/_._",
+        "lib/netstandard2.0/System.Management.dll",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.Management.dll",
+        "runtimes/win/lib/net45/_._",
+        "runtimes/win/lib/netcoreapp2.0/System.Management.dll",
+        "system.management.4.5.0.nupkg.sha512",
+        "system.management.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Private.ServiceModel/4.5.3": {
+      "sha512": "ancrQgJagx+yC4SZbuE+eShiEAUIF0E1d21TRSoy1C/rTwafAVcBr/fKibkq5TQzyy9uNil2tx2/iaUxsy0S9g==",
+      "type": "package",
+      "path": "system.private.servicemodel/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "ref/netstandard/_._",
+        "runtimes/unix/lib/netstandard1.3/System.Private.ServiceModel.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll",
+        "runtimes/win/lib/netcore50/System.Private.ServiceModel.dll",
+        "runtimes/win/lib/netstandard1.3/System.Private.ServiceModel.dll",
+        "runtimes/win/lib/netstandard2.0/System.Private.ServiceModel.dll",
+        "runtimes/win/lib/uap10.0.16300/System.Private.ServiceModel.dll",
+        "system.private.servicemodel.4.5.3.nupkg.sha512",
+        "system.private.servicemodel.nuspec",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.DispatchProxy/4.5.0": {
+      "sha512": "+UW1hq11TNSeb+16rIk8hRQ02o339NFyzMc4ma/FqmxBzM30l1c2IherBB4ld1MNcenS48fz8tbt50OW4rVULA==",
+      "type": "package",
+      "path": "system.reflection.dispatchproxy/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Reflection.DispatchProxy.dll",
+        "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll",
+        "lib/netstandard1.3/System.Reflection.DispatchProxy.dll",
+        "lib/netstandard2.0/System.Reflection.DispatchProxy.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.3/System.Reflection.DispatchProxy.dll",
+        "ref/netstandard1.3/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/de/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/es/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/fr/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/it/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/ja/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/ko/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/ru/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/zh-hans/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/zh-hant/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard2.0/System.Reflection.DispatchProxy.dll",
+        "ref/netstandard2.0/System.Reflection.DispatchProxy.xml",
+        "ref/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+        "ref/uap10.0.16299/System.Reflection.DispatchProxy.xml",
+        "ref/uap10.0.16300/System.Reflection.DispatchProxy.dll",
+        "ref/uap10.0.16300/System.Reflection.DispatchProxy.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.DispatchProxy.dll",
+        "runtimes/win-aot/lib/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+        "system.reflection.dispatchproxy.4.5.0.nupkg.sha512",
+        "system.reflection.dispatchproxy.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "sha512": "YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/uap10.0.16300/_._",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/uap10.0.16300/_._",
+        "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.6.0": {
+      "sha512": "gmlk6khICtVhiUnVBBtlsH0H/5QFDqhTZgtpp3AX14wWE6OIE+BX95NLD+X4AolXnIy/oXpNNmXYnsNfW1KuDQ==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.6.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/4.6.0": {
+      "sha512": "zdCsTOakmbAQVyOI6+ZadvXZgzSiFiY5nXAfGUQNGrz3ofc9sjehpXRvqYb3vWUsvloYFILSpiQCjiZVFKRBjA==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.xml",
+        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "system.security.cryptography.protecteddata.4.6.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Permissions/4.6.0": {
+      "sha512": "W3Uxog9KCZAmGYsOFHgJnb7L2q+SDbxS3vGnFHmErUnXuIjWYpIh1KVTlua7qmPdrlRCkAcTF9dImv+jciBPOQ==",
+      "type": "package",
+      "path": "system.security.permissions/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Security.Permissions.dll",
+        "lib/net461/System.Security.Permissions.xml",
+        "lib/netcoreapp3.0/System.Security.Permissions.dll",
+        "lib/netcoreapp3.0/System.Security.Permissions.xml",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.xml",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.xml",
+        "ref/netcoreapp3.0/System.Security.Permissions.dll",
+        "ref/netcoreapp3.0/System.Security.Permissions.xml",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.4.6.0.nupkg.sha512",
+        "system.security.permissions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.6.0": {
+      "sha512": "Mdukseovp0YIGaz16FMH6nbfgZkrCFOJbtXQptv0aeBO9h775Ilb9+TDwLVTKikoW7y7CY7lpoXl9zmZ5G3ndA==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.6.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ServiceModel.Http/4.5.3": {
+      "sha512": "zxR4z6G/FFK/uAUbo7+3IJOqm0w4/lyfHSQDf+hhUHRTc7XSeReGS5iKQq95gyl1ighHEuayqOiB7iacrB6ZUg==",
+      "type": "package",
+      "path": "system.servicemodel.http/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.ServiceModel.Http.dll",
+        "lib/net461/System.ServiceModel.Http.dll",
+        "lib/netcore50/System.ServiceModel.Http.dll",
+        "lib/netstandard1.3/System.ServiceModel.Http.dll",
+        "lib/netstandard2.0/System.ServiceModel.Http.dll",
+        "lib/portable-net45+win8+wp8/_._",
+        "lib/uap10.0.16300/System.ServiceModel.Http.dll",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.ServiceModel.Http.dll",
+        "ref/net461/System.ServiceModel.Http.dll",
+        "ref/netcore50/System.ServiceModel.Http.dll",
+        "ref/netstandard1.0/System.ServiceModel.Http.dll",
+        "ref/netstandard1.1/System.ServiceModel.Http.dll",
+        "ref/netstandard1.3/System.ServiceModel.Http.dll",
+        "ref/netstandard2.0/System.ServiceModel.Http.dll",
+        "ref/portable-net45+win8+wp8/_._",
+        "ref/uap10.0.16300/System.ServiceModel.Http.dll",
+        "ref/win8/_._",
+        "ref/wp8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.servicemodel.http.4.5.3.nupkg.sha512",
+        "system.servicemodel.http.nuspec",
+        "version.txt"
+      ]
+    },
+    "System.ServiceModel.Primitives/4.5.3": {
+      "sha512": "Wc9Hgg4Cmqi416zvEgq2sW1YYCGuhwWzspDclJWlFZqY6EGhFUPZU+kVpl5z9kAgrSOQP7/Uiik+PtSQtmq+5A==",
+      "type": "package",
+      "path": "system.servicemodel.primitives/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.ServiceModel.Primitives.dll",
+        "lib/net461/System.ServiceModel.Primitives.dll",
+        "lib/netcore50/System.ServiceModel.Primitives.dll",
+        "lib/netstandard1.3/System.ServiceModel.Primitives.dll",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "lib/netstandard2.0/System.ServiceModel.dll",
+        "lib/portable-net45+win8+wp8/_._",
+        "lib/uap10.0.16300/System.ServiceModel.Primitives.dll",
+        "lib/uap10.0.16300/System.ServiceModel.dll",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.ServiceModel.Primitives.dll",
+        "ref/net461/System.ServiceModel.Primitives.dll",
+        "ref/netcore50/System.ServiceModel.Primitives.dll",
+        "ref/netstandard1.0/System.ServiceModel.Primitives.dll",
+        "ref/netstandard1.1/System.ServiceModel.Primitives.dll",
+        "ref/netstandard1.3/System.ServiceModel.Primitives.dll",
+        "ref/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "ref/netstandard2.0/System.ServiceModel.dll",
+        "ref/portable-net45+win8+wp8/_._",
+        "ref/uap10.0.16300/System.ServiceModel.Primitives.dll",
+        "ref/uap10.0.16300/System.ServiceModel.dll",
+        "ref/win8/_._",
+        "ref/wp8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.servicemodel.primitives.4.5.3.nupkg.sha512",
+        "system.servicemodel.primitives.nuspec",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/4.5.0": {
+      "sha512": "S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/de/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/es/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/fr/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/it/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ja/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ko/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ru/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hans/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hant/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "system.text.encoding.codepages.4.5.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Windows.Extensions/4.6.0": {
+      "sha512": "GL4izk0KgeyXklUOHViAk7y1IOYVYcn8nDpJZgcCqNzTGv2xd+8rgGgMKMo8G9nvfEuRCrNxWnGc74EiuYH2YA==",
+      "type": "package",
+      "path": "system.windows.extensions/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.0/System.Windows.Extensions.dll",
+        "lib/netcoreapp3.0/System.Windows.Extensions.xml",
+        "ref/netcoreapp3.0/System.Windows.Extensions.dll",
+        "ref/netcoreapp3.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.xml",
+        "system.windows.extensions.4.6.0.nupkg.sha512",
+        "system.windows.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "DevExpress.WindowsDesktop.Wpf >= 19.2.3",
+      "DevExpress.WindowsDesktop.Wpf.Themes.All >= 19.2.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jinyu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Study\\WPFRibbon\\WPFRibbon\\WPFRibbon.csproj",
+      "projectName": "WPFRibbon",
+      "projectPath": "E:\\Study\\WPFRibbon\\WPFRibbon\\WPFRibbon.csproj",
+      "packagesPath": "C:\\Users\\jinyu\\.nuget\\packages\\",
+      "outputPath": "E:\\Study\\WPFRibbon\\WPFRibbon\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jinyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "d:\\Program Files\\DevExpress 19.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+        "d:\\Program Files\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf": {
+            "target": "Package",
+            "version": "[19.2.3, )"
+          },
+          "DevExpress.WindowsDesktop.Wpf.Themes.All": {
+            "target": "Package",
+            "version": "[19.2.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
