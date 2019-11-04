@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using DevExpress.Diagram.Core.Themes;
+using DevExpress.Xpf.Core;
 using System.Windows;
 
 namespace WPFRibbon
@@ -15,9 +11,15 @@ namespace WPFRibbon
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            DevExpress.Xpf.Core.ApplicationThemeHelper.ApplicationThemeName =
-                DevExpress.Xpf.Core.Theme.Office2019ColorfulFullName;
+            //DevExpress.Xpf.Core.ApplicationThemeHelper.ApplicationThemeName =
+            //    DevExpress.Xpf.Core.Theme.Office2016ColorfulFullName;
+            /// DevExpress.Xpf.Core.ThemeManager.ApplicationThemeName = DevExpress.Xpf.Core.Theme.Office2016ColorfulFullName;
+            ///   protected override void OnStartup(StartupEventArgs e) {
+            ApplicationThemeHelper.ApplicationThemeName = DevExpress.Xpf.Core.Theme.NoneName;
+            ApplicationThemeHelper.SaveApplicationThemeName();
             base.OnStartup(e);
+        
+          
         }
     }
 }

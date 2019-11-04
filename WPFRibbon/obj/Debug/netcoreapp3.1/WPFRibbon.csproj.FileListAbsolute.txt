@@ -127,3 +127,5 @@ E:\Study\WPFRibbon\WPFRibbon\obj\Debug\netcoreapp3.1\WPFRibbon.AssemblyInfo.cs
 E:\Study\WPFRibbon\WPFRibbon\obj\Debug\netcoreapp3.1\WPFRibbon.csproj.CopyComplete
 E:\Study\WPFRibbon\WPFRibbon\obj\Debug\netcoreapp3.1\WPFRibbon.dll
 E:\Study\WPFRibbon\WPFRibbon\obj\Debug\netcoreapp3.1\WPFRibbon.pdb
+E:\Study\WPFRibbon\WPFRibbon\bin\Debug\netcoreapp3.1\WPFRibbon.dll.config
+E:\Study\WPFRibbon\WPFRibbon\obj\Debug\netcoreapp3.1\WPFRibbon.csprojAssemblyReference.cache

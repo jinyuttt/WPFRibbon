@@ -3,19 +3,20 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-         xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
         xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" 
         xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/core" 
         xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
-      xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+        xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
         xmlns:local="clr-namespace:WPFRibbon"
         xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
-         xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar"
-         x:Class="WPFRibbon.MainWindow" 
+        xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar"
+    xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+    x:Class="WPFRibbon.MainWindow" 
         Icon="{dxc:DXImage Image=Home_16x16.png}"
-                     
+       
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="演示平台" Height="450" Width="800">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -28,13 +29,14 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <dxr:RibbonControl x:Name="RibbonControl" 
-                               ApplicationButtonSmallIcon="{dxc:DXImage Image=Home_16x16.png}" 
-                               ApplicationButtonLargeIcon="{dxc:DXImage Image=Home_32x32.png}" 
-                               ApplicationButtonText="File" 
+        <dxr:RibbonControl x:Name="Ribbon" 
+                               ApplicationButtonSmallIcon="{dxc:DXImage Image=SaveAll_16x16.png.png}" 
+                               ApplicationButtonLargeIcon="{dxc:DXImage Image=SaveAll_32x32.png.png}" 
+                               ApplicationButtonText="系统" 
                                PageCategoryAlignment="Right" 
-                               RibbonStyle="Office2010" Grid.ColumnSpan="2" VerticalAlignment="Center" 
-                               >
+                               RibbonStyle="Office2019" 
+                           Grid.ColumnSpan="2" 
+                           VerticalAlignment="Center"  >
             <!--endregion #AppMenu-->
             <!--endregion #PageHeaderItemLinks-->
             <!--endregion #ToolbarItemLinks-->
@@ -93,10 +95,21 @@
                 <dxb:BarEditItem x:Name="eRibbonStyle" Content="Ribbon Style:" 
                     EditWidth="100" 
                     ClosePopupOnChangingEditValue="True" 
-                    EditValue="{Binding RibbonStyle, ElementName=RibbonControl}">
-                    <dxb:BarEditItem.EditSettings>
+                    EditValue="{Binding RibbonStyle, ElementName=Ribbon}">
+                    <!--<dxb:BarEditItem.EditSettings>
                         <dxe:ComboBoxEditSettings IsTextEditable="False" PopupMaxHeight="250" 
-                        ItemsSource="{dxe:EnumItemsSource EnumType={x:Type dxr:RibbonStyle}}"/>
+                                                   ItemsSource="{dxe:EnumItemsSource EnumType={x:Type dxr:RibbonStyle}}"
+                        />
+                    </dxb:BarEditItem.EditSettings>-->
+                    <dxb:BarEditItem.EditSettings>
+                        <dxe:ComboBoxEditSettings IsTextEditable="False" PopupMaxHeight="250">
+                            <dxe:ComboBoxEditSettings.Items>
+                                <dxr:RibbonStyle>Office2010</dxr:RibbonStyle>
+                                <dxr:RibbonStyle>Office2007</dxr:RibbonStyle>
+                    <dxr:RibbonStyle>Office2019</dxr:RibbonStyle>
+                    
+                            </dxe:ComboBoxEditSettings.Items>
+                        </dxe:ComboBoxEditSettings>
                     </dxb:BarEditItem.EditSettings>
                 </dxb:BarEditItem>
                 <dxb:BarButtonItem x:Name="bAbout" Content="About" 
@@ -165,6 +178,7 @@
 
 
                     </dxr:RibbonPageGroup>
+                    
                     <dxr:RibbonPageGroup Caption="Edit" ShowCaptionButton="True" >
                         <dxb:BarButtonItem x:Name="bPaste" Content="Paste" 
                                Glyph="{dxc:DXImage Image=Paste_16x16.png}" 
@@ -192,8 +206,52 @@
                         </dxr:BarButtonGroup>
 
                     </dxr:RibbonPageGroup>
+                    
                 </dxr:RibbonPage>
+
+                <dxr:RibbonPage Caption="皮肤主题样式设置" IsSelected="True">
+
+                    <dxr:RibbonPageGroup Caption="分组样式">
+                        <dxb:BarSplitButtonItem 
+                            Content="Themes" 
+                            Glyph="{dxc:DXImage Image=LoadTheme_16x16.png}" 
+                            LargeGlyph="{dxc:DXImage Image=LoadTheme_32x32.png}">
+                            <dxmvvm:Interaction.Behaviors>
+                                <dxb:BarSplitItemThemeSelectorBehavior/>
+                            </dxmvvm:Interaction.Behaviors>
+                        </dxb:BarSplitButtonItem>
+                    </dxr:RibbonPageGroup>
+
+                    <dxr:RibbonPageGroup Caption="菜单样式">
+                        <dxb:BarSubItem 
+                            Content="Themes"
+                            Glyph="{dxc:DXImage Image=LoadTheme_16x16.png}"
+                            LargeGlyph="{dxc:DXImage Image=LoadTheme_32x32.png}">
+                            <dxmvvm:Interaction.Behaviors>
+                                <dxb:BarSubItemThemeSelectorBehavior ShowMode="GroupedInSubMenus"/>
+                            </dxmvvm:Interaction.Behaviors>
+                        </dxb:BarSubItem>
+                    </dxr:RibbonPageGroup>
+
+
+                    <dxr:RibbonPageGroup Caption="内置主题">
+                        <dxr:RibbonGalleryBarItem>
+                            <dxmvvm:Interaction.Behaviors>
+                                <dxr:RibbonGalleryItemThemeSelectorBehavior ShowTouchThemes="False"/>
+                            </dxmvvm:Interaction.Behaviors>
+                        </dxr:RibbonGalleryBarItem>
+                        <dxr:RibbonGalleryBarItem>
+                            <dxmvvm:Interaction.Behaviors>
+                                <dxr:RibbonGalleryItemThemePaletteSelectorBehavior />
+                            </dxmvvm:Interaction.Behaviors>
+                        </dxr:RibbonGalleryBarItem>
+                    </dxr:RibbonPageGroup>
+               
+                </dxr:RibbonPage>
+                
             </dxr:RibbonDefaultPageCategory>
+            
+            
             <!--region #CustomPageCategory-->
             <dxr:RibbonPageCategory x:Name="categorySelection" 
                                         Caption="Selection" 
@@ -248,6 +306,8 @@
                     </dxr:RibbonPageGroup>
                 </dxr:RibbonPage>
             </dxr:RibbonPageCategory>
+       
+        
         </dxr:RibbonControl>
 
 
